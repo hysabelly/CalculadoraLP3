@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Calculadora";
+}
+
+<h1 class="display-4">Calculadora</h1>
+<h3>Selecione uma opção desejada e calcule inserindo 2 números:</h3>
+
+<form action="Resultado">
+
+    <p>
+        <label for="n1">insira o número 1</label>
+        <input type="text" name="n1" id="n1" >
+    </p>
+
+    <p>
+        <label for="n2">insira o número 2</label>
+        <input type="text" name="n2" id="n2" >
+    </p>
+
+    <p>
+        <select name="operation" id="operation">
+            <option value=1>Operação - Subtração</option>
+            <option value=2>Operação - Soma</option>
+            <option value=3>Operação - Multiplicação</option>
+            <option value=4>Operação - Divisão</option>
+        </select>
+    </p>
+
+    <p>
+        <input type="submit" value="Calcular">
+    </p>
+</form>
