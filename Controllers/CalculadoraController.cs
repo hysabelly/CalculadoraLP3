@@ -1,6 +1,5 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Calculadora.Models;
 namespace Calculadora.Controllers;
 
 public class CalculadoraController : Controller
